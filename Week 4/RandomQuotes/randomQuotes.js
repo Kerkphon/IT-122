@@ -5,18 +5,31 @@
 
 //Create a list of quotes
 var quotes = [
-    "Light travels faster than sound. This is why some people appear bright until you hear them speak.",
-    "Nobody realizes that some people expend tremendous energy merely to be normal.",
-    "All the things I really like to do are either immoral, illegal or fattening.",
-    "War is God’s way of teaching Americans geography.",
-    "The average dog is a nicer person than the average person"
-    
+  "Better to remain silent and be thought a fool than to speak out and remove all doubt.",
+
+  "If I were two-faced, would I be wearing this one?",
+
+  "The best thing about the future is that it comes one day at a time.",
+
+  "The only mystery in life is why the kamikaze pilots wore helmets.",
+
+  "Light travels faster than sound. This is why some people appear bright until you hear them speak.",
 ];
 
-//Generate a random number between 0 and the number of quotes
-var rand =Math.floor(Math.random() * quotes.length);
-
 //Create function that accepts a quote and prints it to the console
-function printQuotes(q){
-    console.log(q)
-}
+function newQuote(arr) {
+  let rand = Math.floor(Math.random() * quotes.length);
+  document.getElementById("quoteDisplay").innerHTML = quotes[rand];
+};
+ 
+function addQuote() {
+  let addInput = quotes;
+  let add = document.getElementById("userinput").value;
+  if( add ==="" ){
+      alert("Please add a quote! :c");
+  }
+  else{
+  addInput.push(add);
+  document.getElementById("userinput").value = "";
+  };
+};
