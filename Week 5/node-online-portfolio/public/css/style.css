@@ -1,0 +1,99 @@
+body{
+    background-color: #16af67;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+nav {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 150px;
+    color: #ffffff;
+}
+.userPic{
+    height: 100%;
+    width: auto;
+
+}
+
+.userdetails{
+    background-color: #00a7db;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+    flex-grow: 2;
+}
+.userdetails h1{
+    margin: 0;
+    font-size: 28px;
+}
+.userdetails span{
+    margin: 0;
+    display: inline-block;
+
+}
+.home{
+    background-color: #00C1EA;
+}
+.projects{
+    background-color: #94d401;
+}
+.contact{
+    background-color: #61b100;
+}
+
+.home, 
+.projects, 
+.contact {
+    color: #ffffff;
+    display:flex; 
+    justify-content: center;
+    align-items: center ;
+    flex-grow: 1;
+}
+.home ion-icon,
+.projects ion-icon,
+.contact ion-icon{
+    font-size: 100px;
+}
+h2, 
+h4{
+    color: #00C1EA;
+}
+.info{
+    background-color: #ffffff;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+    flex-grow: 2;
+}
+.info ion-icon{
+    color: #001240;
+    font-size: x-large;
+}
+#right{
+    float:right;
+    top:-40px;
+    color: #001240;
+}
+h2 { 
+    color: grey;
+} 
+h4{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+li{
+    color: rgba(0, 0, 0, 0.829);
+    font-size: medium;
+}
+
