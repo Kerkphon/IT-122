@@ -1,0 +1,14 @@
+{
+  "name": "create-npm",
+  "version": "1.0.0",
+  "description": "NPM worksheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kerkphon Ketboonsai",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
