@@ -1,0 +1,34 @@
+extends layout
+//This brings in the contents of the layout.jade file
+
+block content
+ .jumbotron
+      .container
+        h1 #{title}
+        p
+          | Personal computer help is just an easy phone call away–all from the comfort of your home! Get access to support over the phone and by remote desktop for as little as $5/month. Receive help from friendly, West-Seattle-based technicians when you need it with common issues including password problems, email, Microsoft Word, Excel, games, printer setup, and much more–all from the comfort of your own home.
+        p
+          a.btn.btn-primary.btn-lg(href='repairService', role='button') Learn more »
+    .container
+      .row
+        .col-md-4
+          h2 Repair Services 
+          img.IT(src="/stylesheets/images/ComputerProblem.jpeg")
+          p
+            | We offers a full range of hardware repair, data recovery, malware removal, software installation and configuration, help desk, and IT services for both personal and business clients. We work with all types of Apple™ and Windows™ laptops and desktops.
+          p
+            a.btn.btn-default(href='/repairService', role='button') View details »
+        .col-md-4
+          h2 IT Services
+          img.IT(src="/stylesheets/images/IT.jpeg")
+          p
+            | We offers IT support for businesses and individuals including managed IT services, on-demand IT services, 24×7 monitoring, Office 365/Exchange, backup, patch management, network setup, VPN firewall, and server maintenance.
+          p
+            a.btn.btn-default(href='/ITService', role='button') View details »
+        .col-md-4
+          h2 Sales
+          img.IT(src="/stylesheets/images/ComputerSale.jpeg")
+          p
+            | Laptop and desktop computers, networking and wifi, wireless mice and keyboards–we stock a wide range of computers, peripherals and accessories. Find the right computer for your best needs and purposes with your experience IT support.
+          p
+            a.btn.btn-default(href='/sale', role='button') View details »
