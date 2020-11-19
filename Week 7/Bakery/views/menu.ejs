@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<%- include('partials/head') %> 
+
+<body>
+<!-- Start Nav Bar  -->
+    <%- include('partials/navbar') %>
+<!--End navbar  -->
+ <h1>Food <%= foodData.bread.name %></h1>
+    <ul>
+        <img src="/image/breadloaf.jpg"  alt="bread type">
+        <% foodData.bread.types.forEach(function(item) { %> 
+            <p><b>Type:</b> <%= item.title %></li></p> 
+            <p><b>Description:</b> <%= item.description %></p>    
+            <p><b>Ingredients:</b> <%= item.ingredients %></p>            
+    <% }) %>  
+    </ul>
+    
+</body>
+</html>

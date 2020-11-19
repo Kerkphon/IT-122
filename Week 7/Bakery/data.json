@@ -1,0 +1,43 @@
+{
+    "bread": {
+        "name": "Bread",
+        "types": [
+            {
+                "title": "Sourdough",
+                "description": "The thick, crunchy crust and dense centre of our traditional Sourdough Loaf is packed with the distinct taste of an authentic artisanal bread. It’s a classic that still elevates expectations as a foundation or side. Spread a grainy mustard and top with shaved roast for a delicious sandwich, or toast and butter generously to serve with Saturday morning’s bacon and eggs.",
+                "nutritional": "fat",
+                "ingredients": [
+                   "Wheat Flour",
+                   "Levain",
+                   "Water",
+                   "Salt"
+                ],
+                "img": "https://images.pexels.com/photos/4881595/pexels-photo-4881595.jpeg?cs=srgb&dl=pexels-jytte-elfferich-4881595.jpg&fm=jpg"
+            },
+            {
+                "title": "French",
+                "description": "A simple bread made free of preservatives, dairy, colour and added sugar. This family favourite White Loaf, what’s not to love? Delightfully soft, it’s perfect for your sandwiches and toast.",
+                "nutritional": "fat",
+                "ingredients": [
+                    "Wheat Flour",
+                    "Yeast",
+                    "Water",
+                    "Salt"
+                 ],
+                 "img": "https://images.pexels.com/photos/2135/food-france-morning-breakfast.jpg?cs=srgb&dl=pexels-pixabay-2135.jpg&fm=jpg"
+            },
+            {
+                "title": "White Bread",
+                "description": "Our Higher fiber Loaf packs a healthy punch! It tastes just as great as our regular White Loaf, but has four times the fiber! This loaf tends to get devoured pretty quick, so make sure you save yourself a slice! Toast it for the perfect BLT, or give it the grilled cheese treatment and dip into creamy tomato soup to spark some childhood memories.",
+                "nutritional": "fat",
+                "ingredients":[
+                    "Wheat Flour",
+                    "Levain",
+                    "Water",
+                    "Salt"
+                 ],
+                 "img": "https://images.pexels.com/photos/1756064/pexels-photo-1756064.jpeg?cs=srgb&dl=pexels-mariana-kurnyk-1756064.jpg&fm=jpg"
+            }
+        ]
+    }
+}
