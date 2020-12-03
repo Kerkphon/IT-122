@@ -110,7 +110,7 @@ app.get('/api/posts/:year/:month', (req,res) => {
 // we assign the environment variable to a constant called port
 // you can change the port environment variable on your machine
 // in terminal using the export command 'export PORT=5000'
-// and in command prompt using the set command
+// and in command prompt using the set command.
 const port  = process.env.PORT || 3001
 app.listen(port, () => console.log(`Listening on port ${port}...`))
 
