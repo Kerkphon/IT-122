@@ -12,13 +12,11 @@
     <div>
         <a href="/courses/new">Add Course</a>
     </div>
-
     <ul>
         <% for (let course of courses){%> 
         <li><a href="/courses/<%= course._id %>"><%= course.title %></a></li>
         <% }%>
     </ul>
-    
 
 </body>
 
